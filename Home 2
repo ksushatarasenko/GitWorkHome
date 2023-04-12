@@ -1,0 +1,19 @@
+1.Как отказаться от изменений в файле (файлах) находящийся в рабочем каталоге (work directory)
+    git checkout . (все изменения)
+    
+2.Как вернуть файл из индекса в рабочий каталог?
+    git restore --staged name file
+    
+3.Как отменить ошибочный commit ?
+    git reset HEAD~(количество коммитов)
+    
+4.Как создать новую ветку и переключится в нее?
+    git checkout -b name
+    
+5.Как создать git репозиторий из локального каталога на своем компьютере. Как его отправить на github.com?
+    git init
+    git add .
+    git commit -m "....."
+    git remote add original ссылка
+    git puch -u original main
+    
