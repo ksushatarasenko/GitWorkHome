@@ -15,5 +15,5 @@
     git add .
     git commit -m "....."
     git remote add original ссылка
-    git puch -u original main
+    git push -u original main
     
